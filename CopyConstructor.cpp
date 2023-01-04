@@ -20,7 +20,7 @@ public:
 
     }
 
-    complex(complex &c)      //Parameterized Constructor
+    complex(complex &c)      //Copy Constructor
     {
         a = c.a;
         b = c.b;
